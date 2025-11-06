@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --background: #ffffff;
+  --foreground: #171717;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+}
+
+@layer components {
+  .responsiveWidth {
+    @apply w-full px-5 xl:px-0 xl:w-layoutWidth;
+  }
+}
+
+body {
+  color: var(--foreground);
+  background: var(--background);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.no-scroll {
+  -ms-overflow-style: none;
+}
+
+.no-scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.blur-in {
+  opacity: 0;
+  filter: blur(4px);
+  transition: opacity 0.8s ease, filter 0.8s ease;
+}
+
+.blur-in-active {
+  opacity: 1;
+  filter: blur(0);
+}

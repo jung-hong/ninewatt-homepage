@@ -1,0 +1,161 @@
+{
+  "Home": {
+    "SectionOne": {
+      "Link": "솔루션 도입 문의"
+    },
+    "SectionThree": {
+      "HeadingOne": "나인와트는",
+      "HeadingTwo": "우리가 살아가는 도시와 환경,",
+      "HeadingThree": "사람을 사랑합니다.",
+
+      "Paragraph": "친환경 에너지의 생산만큼 중요한 일은\n낭비되는 에너지를 줄이는 일입니다.\n나인와트는 D.N.A(Data·Network·AI)를 활용하여\n도시의 에너지 효율화와 탄소중립 정책에 기여하고,\n더욱 나은 사회를 위한 스마트 시티 변화를 주도하고 있습니다.",
+      "Link": "더 알아보기"
+    },
+    "SectionFive": {
+      "ParagraphLineOne": "나인와트는 건물과 도시의 수많은 에너지 문제들을 분석하고",
+      "ParagraphLineTwo": "다양한 규모의 데이터를 수집·처리·분석하여 새로운 해결방법을 찾아냅니다.",
+      "LabelOne": "데이터 처리",
+      "LabelTwo": "알고리즘 수집 데이터",
+      "LabelThree": "데이터 종류"
+    },
+    "SectionSeven": {
+      "SubTitleLineOne": "나인와트는 기업의 지속가능한 발전과 사회적 책임을 위해",
+      "SubTitleLineTwo": "ICT 기술 혁신과 사회적 임팩트가 만나는 교차점에 주목합니다.",
+      "Business": {
+        "0": {
+          "Title": "WATTI",
+          "Description": "도시의 에너지 문제를 발굴하고 해결하는 3D 지도 기반 스마트시티 플랫폼",
+          "Tags": ["#B2B", "#B2G", "#에너지분석"]
+        },
+        "1": {
+          "Title": "SAVE-E",
+          "Description": "최소한의 고객 정보를 활용한 \n빅데이터 분석 기반 \n 건물 에너지 절감 솔루션",
+          "Tags": ["#B2B", "#B2G", "#자동레포팅"]
+        },
+        "2": {
+          "Title": "GREEN PLANNER",
+          "Description": "GIS 기반 시뮬레이션과 AI 기술을 활용해 Energy Retrofit의 최적의 대안을 도출합니다.",
+          "Tags": ["#B2B", "#B2G", "#그린리모델링"]
+        },
+        "3": {
+          "Title": "그린플래너 APP",
+          "Description": "프롭테크와 리모델링 예측보고서를 결합한 리모델링 원스톱 플랫폼",
+          "Tags": ["#B2B", "#B2C", "#자동레포팅"]
+        },
+        "4": {
+          "Title": "RE:park",
+          "Description": "시민·관리자·보수업체를 위한\n 공원시설물 관리시스템",
+          "Tags": ["#B2B", "#B2G", "#GIS"]
+        }
+      },
+      "Link": "자세히 보기"
+    },
+    "SectionEight": {
+      "ResultLineOne": "나인와트가 제시하는 다양한 솔루션은",
+      "ResultLineTwo": "우리가 살아가는 세상을",
+      "ResultLineThree": "더욱 나은 사회로 이끌어갑니다.",
+
+      "ResultConfig": {
+        "0": {
+          "Title": "5개 도시의 탄소배출량\n모니터링 및 예측"
+        },
+        "1": {
+          "Title": "50개 건물에 대해\n연간 2,250 MtCO2e 절감"
+        },
+        "2": {
+          "Title": "특정 지역(대규모 공원)내\n2,000여개 시설 디지털화"
+        }
+      }
+    },
+    "SectionNine": {
+      "NewsDescription": "나인와트의 새로운 소식을 만나보세요."
+    },
+    "SectionTen": {
+      "TopLineOne": "나인와트와 함께 할",
+      "TopLineTwo": "동료를 찾습니다.",
+      "BottomLineOne": "에너지 손실을 개선하고",
+      "BottomLineTwo": "효율을 높이는 방안을",
+      "BottomLineThree": "찾아내세요.",
+      "JoinOurTeam": "채용 바로가기",
+      "ContactUs": "문의하러가기"
+    }
+  },
+  "About": {
+    "SectionTwo": {
+      "TitleLineOne": "DNA(Data·Network·AI)를 통해",
+      "TitleLineTwo": "숨어있는 도시문제를 해결하다.",
+      "DescriptionLineOne": "나인와트는 ESG 경영 중 환경에 초점을 맞춘 예비사회적 기업이자 소셜벤처 기업입니다.",
+      "DescriptionLineTwo": "우리는 기업의 지속가능한 발전 및 사회적 책임을 위해 ICT 기술 혁신과 사회적 임팩트가 만나는 교차점에 주목합니다."
+    },
+    "SectionThree": {
+      "Mission": {
+        "Title": "낭비되는 에너지를 Zer0로",
+        "DescriptionLineOne": "친환경 에너지의 생성만큼 중요한 일은 낭비되는 에너지를",
+        "DescriptionLineTwo": "줄이는 것입니다. 탄소중립을 실현하기 위해 나인와트는",
+        "DescriptionLineThree": "다양한 데이터를 활용하여 에너지 사용 최적안을 도출합니다."
+      },
+      "Vision": {
+        "Title": "건물 에너지 절약 서비스 선도기업",
+        "DescriptionLineOne": "에너지는 사회의 인프라를 작동시키는 필수적인 원동력입니다.",
+        "DescriptionLineTwo": "나인와트는 인류의 지속가능한 영위 및 존엄과 가치를 지키기",
+        "DescriptionLineThree": "위한 기술화를 지향합니다."
+      }
+    },
+    "SectionFour": {
+      "Description": {
+        "One": "현재와 미래, 모든 세대의 발전을 도모하기 위하여",
+        "Two": "지속가능발전목표(SDGs)",
+        "Three": "달성에 대한 노력을 기울이고 있습니다."
+      },
+      "CardOne": {
+        "Header": "세부목표",
+        "Title": "에너지의 친환경적 생산과 소비",
+        "Description": "낭비되는 건물 에너지 절감 및 에너지 효율성 개선"
+      },
+      "CardTwo": {
+        "Header": "세부목표",
+        "Title": "기후변화와 대응",
+        "Description": "전략적인 아이디어와 아이템을 통해 온실가스 배출량을 줄임으로써 기후변화와 부정적인 영향 완화"
+      }
+    }
+  },
+  "Solutions": {
+    "Buttons": {
+      "Website": "웹사이트 이동",
+      "DownloadReport": "보고서 다운로드",
+      "Inquiry": "사용문의"
+    }
+  },
+  "Contact": {
+    "Form": {
+      "Name": "성명/회사명",
+      "NamePlaceh": "소속을 입력해주세요.",
+      "Email": "이메일 주소",
+      "EmailPlaceh": "이메일 주소를 입력해주세요.",
+      "Phone": "전화번호",
+      "PhonePlaceh": "전화번호를 입력해주세요.",
+      "InquiryContent": "문의내용",
+      "InquiryContentPlaceh": "문의내용을 입력해주세요. 공백포함 1,000자까지 작성가능합니다.",
+      "CompleteAlert": "문의사항 접수 완료",
+      "CompleteContent1": "문의사항이 접수되었습니다.",
+      "CompleteContent2": "담당자가 확인 후 빠르게 답변 드리겠습니다.",
+      "CompleteButton": "확인",
+      "ErrorAlert": "문의 접수 중 오류가 발생했습니다."
+    },
+    "Terms": {
+      "Title": "개인정보취급방침",
+      "ContentTitle": "개인정보 처리방침(공통)[2024 개정]",
+      "Checkbox": "[필수] 개인정보 취급방침에 동의합니다."
+    },
+    "Button": "문의하기"
+  },
+  "Portfolio": {
+    "Header": "건물부터 도시까지 NINEWATT에서",
+    "Patent": "특허출원",
+    "Certifications": "보유인증",
+    "PerformanceCard": {
+      "Agency": "주관부처",
+      "OperatingOrg": "운영기관"
+    }
+  }
+}

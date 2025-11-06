@@ -1,0 +1,162 @@
+{
+  "Home": {
+    "SectionOne": {
+      "Link": "Inquiry about solution implementation."
+    },
+    "SectionThree": {
+      "HeadingOne": "Ninewatt loves the cities,",
+      "HeadingTwo": "environments, and people",
+      "HeadingThree": "we share our lives with.",
+      "Paragraph": "Reducing wasted energy is just as crucial \nas producing eco-friendly energy. \nNinewatt contributes to urban energy efficiency \nand carbon neutrality policies  through D.N.A. (Data,\nNetwork, AI), driving the transformation of smart cities\nfor a better society.",
+      "Link": "Learn more"
+    },
+    "SectionFive": {
+      "ParagraphLineOne": "Ninewatt addresses energy challenges in buildings and cities",
+      "ParagraphLineTwo": "by collecting, processing, and analyzing data at multiple scales to discover innovative solutions.",
+      "LabelOne": "Data Processing",
+      "LabelTwo": "Algorithm Collection",
+      "LabelThree": "Data Types"
+    },
+    "SectionSeven": {
+      "SubTitleLineOne": "Ninewatt focuses on the intersection of ICT technology innovation and social impact,",
+      "SubTitleLineTwo": "driving sustainable corporate development and fulfilling our social responsibility.",
+
+      "Business": {
+        "0": {
+          "Title": "WATTI",
+          "Description": "A 3D map-based smart city platform\ndesigned to identify and address\nurban energy challenges.",
+          "Tags": ["#B2B", "#B2G", "#EnergyAnalysis"]
+        },
+        "1": {
+          "Title": "SAVE-E",
+          "Description": "A building energy-saving solution\npowered by big data analysis,\nutilizing minimal customer information.",
+          "Tags": ["#B2B", "#B2G", "#Automated Reporting"]
+        },
+        "2": {
+          "Title": "GREEN PLANNER",
+          "Description": "Utilizes GIS-based simulations and\nAI technology to generate optimal\nsolutions for energy retrofitting.",
+          "Tags": ["#B2B", "#B2G", "#GreenRemodeling"]
+        },
+        "3": {
+          "Title": "GREEN PLANNER APP",
+          "Description": "A one-stop remodeling platform\nthat integrates proptech with\nremodeling prediction reports.",
+          "Tags": ["#B2B", "#B2C", "#Automated Reporting"]
+        },
+        "4": {
+          "Title": "RE:park",
+          "Description": "A park facility management system\ndesigned for citizens, administrators,\nand maintenance companies.",
+          "Tags": ["#B2B", "#B2G", "#GIS"]
+        }
+      },
+      "Link": "Learn more"
+    },
+    "SectionEight": {
+      "ResultLineOne": "The diverse solutions offered by Ninewatt",
+      "ResultLineTwo": "are shaping the world we live in, driving",
+      "ResultLineThree": "us toward a better society.",
+
+      "ResultConfig": {
+        "0": {
+          "Title": "Monitoring and predicting\ncarbon emissions in 5\ncities"
+        },
+        "1": {
+          "Title": "Reducing 2,250 MtCO2e\nannually across 50\nbuildings"
+        },
+        "2": {
+          "Title": "Digitizing over 2,000\nfacilities in targeted areas\n(e.g., large parks)"
+        }
+      }
+    },
+    "SectionNine": {
+      "NewsDescription": "Discover the latest updates from Ninewatt."
+    },
+    "SectionTen": {
+      "TopLineOne": "Join us at Ninewatt,",
+      "TopLineTwo": "we're hiring!",
+      "BottomLineOne": "Discover solutions",
+      "BottomLineTwo": "reduce energy waste",
+      "BottomLineThree": "and boost efficiency.",
+      "JoinOurTeam": "Join Our Team",
+      "ContactUs": "Contact Us"
+    }
+  },
+
+  "About": {
+    "SectionTwo": {
+      "TitleLineOne": "Solving hidden urban issues",
+      "TitleLineTwo": "through D.N.A (Data, Network, AI).",
+      "DescriptionLineOne": "Ninewatt is a pioneering social enterprise and venture focused on the environment within ESG management. We focus on the intersection where ICT innovation meets social impact, driving sustainable development and social responsibility for businesses.",
+      "DescriptionLineTwo": ""
+    },
+    "SectionThree": {
+      "Mission": {
+        "Title": "Reduce Wasted Energy to Zer0",
+        "DescriptionLineOne": "Just as important as generating eco-friendly energy is reducing",
+        "DescriptionLineTwo": "wasted energy. To achieve carbon neutrality, Ninewatt leverages",
+        "DescriptionLineThree": "diverse data to derive optimal energy usage solutions."
+      },
+      "Vision": {
+        "Title": "A Leading Company in Building Energy-Saving Services",
+        "DescriptionLineOne": "Energy is a vital force that powers the infrastructure of society.",
+        "DescriptionLineTwo": "Ninewatt strives for technological advancements that protect",
+        "DescriptionLineThree": "the sustainable existence, dignity, and value of humanity."
+      }
+    },
+    "SectionFour": {
+      "Description": {
+        "One": "We are committed to achieving the",
+        "Two": "Sustainable Development Goals (SDGs)",
+        "Three": "to foster the development of both present and future generations."
+      },
+      "CardOne": {
+        "Header": "SPECIFIC GOAL",
+        "Title": "Environmentally friendly production and consumption of energy",
+        "Description": "Reduction of wasted building energy and improvement of energy efficiency"
+      },
+      "CardTwo": {
+        "Header": "SPECIFIC GOAL",
+        "Title": "Climate Change and Response",
+        "Description": "Mitigating the negative impacts of climate change by reducing greenhouse gas emissions through strategic ideas and initiatives."
+      }
+    }
+  },
+  "Solutions": {
+    "Buttons": {
+      "Website": "Visit the website",
+      "DownloadReport": "Introduction",
+      "Inquiry": "Inquire About"
+    }
+  },
+  "Contact": {
+    "Form": {
+      "Name": "Name/Company Name",
+      "NamePlaceh": "Please enter your affiliation.",
+      "Email": "Email address",
+      "EmailPlaceh": "Please enter your email address",
+      "Phone": "Phone number",
+      "PhonePlaceh": "Please enter your phone number",
+      "InquiryContent": "Inquiry content",
+      "InquiryContentPlaceh": "Please enter your inquiry. You can write up to 1,000 characters, including spaces.",
+      "CompleteAlert": "Inquiry completed.",
+      "CompleteContent1": "Your inquiry has been received.",
+      "CompleteContent2": "The person in charge will check it and respond quickly.",
+      "CompleteButton": "Confirm",
+      "ErrorAlert": "Error while receiving inquiry."
+    },
+    "Terms": {
+      "Title": "Privacy Policy",
+      "ContentTitle": "Privacy Policy (General) [Revised 2024]",
+      "Checkbox": "[Required] I agree to the privacy policy."
+    },
+    "Button": "Contact Us"
+  },
+  "Portfolio": {
+    "Header": "From Buildings to Cities at NINEWATT",
+    "Patent": "Patent Application",
+    "Certifications": "Certifications",
+    "PerformanceCard": {
+      "Agency": "Supervising Ministry",
+      "OperatingOrg": "Operating Agency"
+    }
+  }
+}
