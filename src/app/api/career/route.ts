@@ -818,6 +818,42 @@ const NEWS_LIST = [
     link: "https://www.venturesquare.net/995531",
     type: "article",
   },
+  {
+    title:
+      "[클린테크 기업 찾아서](68)나인와트, 도시 속 건물에너지 분석-해결책 제시...스마트시티 만들다",
+    date: "2025.06.02",
+    origin: "SDG뉴스",
+    image: "https://cdn.sdgnews.net/news/photo/202506/48050_52790_4124.jpg",
+    link: "https://www.sdgnews.net/news/articleView.html?idxno=48050",
+    type: "article",
+  },
+  {
+    title:
+      "창업진흥원, ‘비바테크 2025’ K-Startup 통합관 성과공유회 개최... “국내 창업기업 글로벌 혁신의 중심에 서”",
+    date: "2025.08.22",
+    origin: "에이빙뉴스",
+    image: "https://cdn.kr.aving.net/news/photo/202508/1803290_755142_4131.jpg",
+    link: "https://kr.aving.net/news/articleView.html?idxno=1803290",
+    type: "article",
+  },
+  {
+    title: "서울시, 데이터로 정책 바꾼다…시민 시각화 경진대회 나인와트 우수상",
+    date: "2025.09.22",
+    origin: "환경과조경",
+    image:
+      "https://www.lak.co.kr/mark/watermark.php?path=http://www.lak.co.kr/data/news/editor/20250922153053_cvfltibn.jpg",
+    link: "https://www.lak.co.kr/news/boardview.php?id=21340",
+    type: "article",
+  },
+  {
+    title: "경기도 육성 기후테크 스타트업 4곳 'CES 2026' 혁신상 수상",
+    date: "2025.11.06",
+    origin: "연합뉴스",
+    image:
+      "https://imgnews.pstatic.net/image/001/2025/11/06/AKR20251106035800061_01_i_P4_20251106090914825.jpg?type=w860",
+    link: "https://n.news.naver.com/article/001/0015727002?sid=101",
+    type: "article",
+  },
 ];
 
 const NINEWATT_VIDEO = [

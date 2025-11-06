@@ -27,6 +27,11 @@ const nextConfig: NextConfig = {
         hostname: "www.sentv.co.kr",
         pathname: "**",
       },
+      {
+        protocol: "https",
+        hostname: "www.lak.co.kr",
+        pathname: "**",
+      },
     ],
   },
 };
