@@ -28,11 +28,14 @@ export const metadata: Metadata = {
 
 export default async function RootLayout({
   children,
-  params: { locale },
+  params, // 1. 여기서 바로 { locale }로 구조 분해하지 않습니다.
 }: Readonly<{
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>; // 2. 타입을 Promise<{ locale: string }>으로 변경합니다.
 }>) {
+  // 3. params를 await하여 실제 값을 꺼냅니다.
+  const { locale } = await params;
+
   // 들어오는 'locale'이 유효한지 확인합니다.
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   if (!routing.locales.includes(locale as any)) {
@@ -40,7 +43,6 @@ export default async function RootLayout({
   }
 
   // 클라이언트에게 모든 메시지를 제공합니다.
-  // side is the easiest way to get started
   const messages = await getMessages();
 
   console.log({ locale, messages });
