@@ -1,38 +1,37 @@
 import { NextRequest, NextResponse } from "next/server";
 import {
-  NINEWATT_PERFORMANCE_LIST,
-  NINEWATT_PERFORMANCE_LIST_ENG,
-} from "@/app/_constants/performances";
-
-const sortById = (a: { id: number }, b: { id: number }) => {
-  return b.id - a.id;
-};
+  STRAPI_URL,
+  strapiFetch,
+  paginationMeta,
+  parsePagination,
+  toStrapiLocale,
+} from "@/shared/utils/strapi";
 
 export const GET = async (req: NextRequest) => {
   const { searchParams } = new URL(req.url);
+  const { page, limit } = parsePagination(searchParams);
   const category = searchParams.get("category") || "all";
-  const page = parseInt(searchParams.get("page") || "1", 10);
-  const limit = parseInt(searchParams.get("limit") || "10", 10);
   const locale = searchParams.get("locale") || "kr";
 
-  const startIndex = (page - 1) * limit;
-  const endIndex = startIndex + limit;
+  const strapiLocale = toStrapiLocale(locale);
+  const filters = category === "all" ? "" : `&filters[category][$eq]=${category}`;
+  const url = `${STRAPI_URL}/api/performances?locale=${strapiLocale}&sort=order_id:desc&pagination[page]=${page}&pagination[pageSize]=${limit}${filters}`;
 
-  const performances = locale === "en" ? NINEWATT_PERFORMANCE_LIST_ENG : NINEWATT_PERFORMANCE_LIST;
+  const res = await strapiFetch(url);
+  if (!res.ok) return NextResponse.json({ error: "Failed to fetch from Strapi" }, { status: 500 });
 
-  // Filter based on the selected tab
-  const filteredList =
-    category === "all" ? performances : performances.filter((item) => item.category === category);
-
-  const sortedList = filteredList.sort(sortById);
-
-  const paginatedPerformanceList = sortedList.slice(startIndex, endIndex);
+  const { data, meta } = await res.json();
 
   return NextResponse.json({
-    total: sortedList.length,
-    page,
-    limit,
-    totalPages: Math.ceil(sortedList.length / limit),
-    data: paginatedPerformanceList,
+    ...paginationMeta(meta, page, limit),
+    data: data.map((item: any) => ({
+      id: item.order_id,
+      type: item.type,
+      category: item.category,
+      period: item.period,
+      agency: item.agency,
+      title: item.title,
+      operatingOrganization: item.operatingOrganization,
+    })),
   });
 };

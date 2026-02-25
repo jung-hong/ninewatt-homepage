@@ -1,29 +1,27 @@
 import { NextRequest, NextResponse } from "next/server";
-import { NINEWATT_CERTIFICATIONS } from "@/app/_constants/certifications";
-
-const sortById = (a: { id: number }, b: { id: number }) => {
-  return b.id - a.id;
-};
+import { STRAPI_URL, strapiFetch, paginationMeta, parsePagination } from "@/shared/utils/strapi";
 
 export const GET = async (req: NextRequest) => {
   const { searchParams } = new URL(req.url);
-  const page = parseInt(searchParams.get("page") || "1", 10);
-  const limit = parseInt(searchParams.get("limit") || "10", 10);
-  const locale = searchParams.get("locale") || "kr";
+  const { page, limit } = parsePagination(searchParams);
 
-  const startIndex = (page - 1) * limit;
-  const endIndex = startIndex + limit;
+  const url = `${STRAPI_URL}/api/certifications?sort=order_id:desc&pagination[page]=${page}&pagination[pageSize]=${limit}`;
 
-  const baseList = locale === "en" ? NINEWATT_CERTIFICATIONS : NINEWATT_CERTIFICATIONS;
-  const sortedList = baseList?.sort(sortById);
+  const res = await strapiFetch(url);
+  if (!res.ok) return NextResponse.json({ error: "Failed to fetch from Strapi" }, { status: 500 });
 
-  const paginatedPerformanceList = sortedList.slice(startIndex, endIndex);
+  const { data, meta } = await res.json();
 
   return NextResponse.json({
-    total: sortedList.length,
-    page,
-    limit,
-    totalPages: Math.ceil(sortedList.length / limit),
-    data: paginatedPerformanceList,
+    ...paginationMeta(meta, page, limit),
+    data: data.map((item: any) => ({
+      id: item.order_id,
+      certificateName: item.certificateName,
+      issuingAuthority: item.issuingAuthority,
+      issueDate: item.issueDate,
+      validPeriod: item.validPeriod,
+      registrationNumber: item.registrationNumber,
+      standardType: item.standardType,
+    })),
   });
 };
